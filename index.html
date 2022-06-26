@@ -148,12 +148,16 @@
         <p class="appointment-details">
           Вкажіть бажану дату й ми звʼяжемося з вами
         </p>
-        <form
-          action="https://echo.ua"
-          class="appointment-form"
-          method="post"
-        ></form>
-        <button class="button" type="submit">Записатись</button>
+        <form action="https://echo.ua" class="appointment-form" method="post">
+          <label for="appointment-date">Дата</label>
+          <input
+            type="text"
+            id="appointment-date"
+            name="appointment-date"
+            placeholder="01.01.2022"
+          />
+          <button class="button" type="submit">Записатись</button>
+        </form>
       </section>
     </main>
     <script src="src/app.js"></script>
